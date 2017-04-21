@@ -1,0 +1,2 @@
+# hotplugin
+load resources dynamically
