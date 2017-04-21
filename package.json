@@ -1,0 +1,23 @@
+{
+  "name": "hotplugin",
+  "version": "1.0.0",
+  "description": "dynamically load modules and resources",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "cd test && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p1024/hotplugin.git"
+  },
+  "author": "p1024",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "singleton": "git+https://github.com/p1024/singleton.git/#master",
+    "handyfs": "git+https://github.com/p1024/handyfs.git/#master"
+  }
+}
